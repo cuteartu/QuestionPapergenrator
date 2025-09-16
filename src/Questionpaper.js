@@ -172,7 +172,7 @@ const getStyles = (mode) => ({
     },
   },
   markChip: {
-    background: mode === "light" ? "#f50057" : "#f06292", // Background for mark chips
+    background: mode === "light" ? "#66b2b7ff" : "#f06292", // Background for mark chips
     color: "white", // Text color
     fontWeight: "bold", // Bold text
   },
