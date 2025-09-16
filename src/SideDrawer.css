@@ -1,0 +1,37 @@
+.side-drawer {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #333;
+    padding: 20px;
+    transition: left 0.3s ease;
+  }
+  
+  .side-drawer.open {
+    left: 0;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .drawer-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .drawer-link:hover {
+    text-decoration: underline;
+  }

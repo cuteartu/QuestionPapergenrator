@@ -1,0 +1,22 @@
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+  }
+  
+  .carousel-item {
+    scroll-snap-align: start;
+    min-width: 80%;
+    margin: 0 10px;
+    background-color: #5c67f2;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,178 @@
+/* ApiCalling.css */
+
+/* Main container styles */
+.api-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .api-header {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .form-title {
+    margin-top: 0;
+    color: #444;
+  }
+  
+  /* Form grid layout */
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  /* Form input styles */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+  }
+  
+  /* Button styles */
+  .btn {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-add {
+    background-color: #2196F3;
+  }
+  
+  .btn-add:hover {
+    background-color: #0b7dda;
+  }
+  
+  .btn-update {
+    background-color: #4CAF50;
+  }
+  
+  .btn-update:hover {
+    background-color: #3e8e41;
+  }
+  
+  .btn-cancel {
+    background-color: #f44336;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #da190b;
+  }
+  
+  .btn-edit {
+    background-color: #FFC107;
+    color: black;
+  }
+  
+  .btn-edit:hover {
+    background-color: #e0a800;
+  }
+  
+  .btn-delete {
+    background-color: #f44336;
+  }
+  
+  .btn-delete:hover {
+    background-color: #da190b;
+  }
+  
+  /* Table styles */
+  .table-container {
+    overflow-x: auto;
+    margin-top: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th {
+    background-color: #f0f0f0;
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  
+  .product-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Product image styles */
+  .product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  /* Button group for actions */
+  .action-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .product-table {
+      font-size: 14px;
+    }
+    
+    .btn {
+      padding: 8px 12px;
+      font-size: 13px;
+    }
+  }
